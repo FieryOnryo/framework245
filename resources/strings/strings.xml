@@ -1,0 +1,64 @@
+<!-- Watchface strings -->
+<strings>
+
+    <string id="AppName">Framework 245</string>
+
+    <string id="DarkMode">Dark mode</string>
+
+    <string id="Highlight">Highlight</string>
+    <string id="ColorRed">Red</string>
+    <string id="ColorOrange">Orange</string>
+    <string id="ColorYellow">Yellow</string>
+    <string id="ColorGreen">Green</string>
+    <string id="ColorDarkGreen">Dark Green</string>
+    <string id="ColorBlue">Blue</string>
+    <string id="ColorDarkBlue">Dark Blue</string>
+    <string id="ColorPurple">Purple</string>
+    <string id="ColorPink">Pink</string>
+
+    <string id="DeepSleep">Deep Sleep</string>
+    <string id="DeepSleepOff">Off</string>
+    <string id="DeepSleepInstant">Instant</string>
+    <string id="DeepSleep15Seconds">15 secs</string>
+    <string id="DeepSleep30Seconds">30 secs</string>
+    <string id="DeepSleep1Minute">1 min</string>
+    <string id="DeepSleep2Minutes">2 mins</string>
+    
+    <string id="HeartRateRefreshFrequency">Heart Rate</string>
+    <string id="HeartRate1Second">1 sec</string>
+    <string id="HeartRate5Seconds">5 secs</string>
+    <string id="HeartRate15Seconds">15 secs</string>
+    <string id="HeartRate30Seconds">30 secs</string>
+    <string id="HeartRate60Seconds">60 secs</string>
+
+    <string id="HeartNoData">--</string>
+    <string id="HeartSleep">Zzz</string>
+    <string id="HeartPowerBudgetExceeded">XX</string>
+
+    <string id="Seconds">Seconds</string>
+
+    <string id="IconType0">Left Icon</string>
+    <string id="IconType1">Right Icon</string>
+    <string id="Off">Off</string>
+    <string id="Notifications">Notifications</string>
+    <string id="Bluetooth">Bluetooth</string>
+    <string id="Wifi">Wifi</string>
+    <string id="Phone">Phone</string>
+    <string id="DoNotDisturb">Do Not Disturb</string>
+
+    <string id="DataType0">Top Data</string>
+    <string id="DataType1">Bottom Data</string>
+    <string id="Steps">Steps</string>
+    <string id="TotalCalories">Total Cals</string>
+    <string id="ActiveCalories">Active Cals</string>
+    <string id="RestingCalories">Rest Cals</string>
+    <string id="Distance">Distance</string>
+    <string id="ActiveMinutesDay">Act Mins Day</string>
+    <string id="ActiveMinutesWeek">Act Mins Week</string>
+    <string id="FloorsClimbed">Flrs Climbed</string>
+    <string id="FloorsDescended">Flrs Descended</string>
+
+    <string id="BatteryType">Battery Type</string>
+    <string id="BatteryArc">Arc</string>
+    <string id="BatteryIcon">Icon</string>
+</strings>

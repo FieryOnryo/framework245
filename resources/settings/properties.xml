@@ -1,0 +1,13 @@
+<!-- Watchface properties -->
+<properties>
+    <property id="isDarkModeEnabled" type="boolean">false</property>
+    <property id="highlightColor" type="number">0xFF0000</property>
+    <property id="deepSleepTimeoutSeconds" type="number">30</property>    
+    <property id="heartRateRefreshFrequency" type="number">5</property>
+    <property id="isSecondsMarkEnabled" type="boolean">true</property>    
+    <property id="iconType0" type="number">0</property>
+    <property id="iconType1" type="number">1</property>
+    <property id="dataType0" type="number">0</property>
+    <property id="dataType1" type="number">1</property>
+    <property id="layoutIndex" type="number">0</property>
+</properties>

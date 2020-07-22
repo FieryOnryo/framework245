@@ -1,0 +1,93 @@
+<!-- Watchface settings -->
+<settings>
+    <setting propertyKey="@Properties.isDarkModeEnabled" title="@Strings.DarkMode">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.highlightColor" title="@Strings.Highlight">
+        <settingConfig type="list">
+            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
+            <listEntry value="0xFFAA00">@Strings.ColorOrange</listEntry>
+            <listEntry value="0xFFFF55">@Strings.ColorYellow</listEntry>
+            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
+            <listEntry value="0x00AA00">@Strings.ColorDarkGreen</listEntry>
+            <listEntry value="0x00AAFF">@Strings.ColorBlue</listEntry>
+            <listEntry value="0x0000FF">@Strings.ColorDarkBlue</listEntry>
+            <listEntry value="0xAA00FF">@Strings.ColorPurple</listEntry>
+            <listEntry value="0xFF00FF">@Strings.ColorPink</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.deepSleepTimeoutSeconds" title="@Strings.DeepSleep">
+        <settingConfig type="list">
+            <listEntry value="-1">@Strings.DeepSleepOff</listEntry>
+            <listEntry value="0">@Strings.DeepSleepInstant</listEntry>
+            <listEntry value="15">@Strings.DeepSleep15Seconds</listEntry>
+            <listEntry value="30">@Strings.DeepSleep30Seconds</listEntry>
+            <listEntry value="60">@Strings.DeepSleep1Minute</listEntry>
+            <listEntry value="120">@Strings.DeepSleep2Minutes</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.heartRateRefreshFrequency" title="@Strings.HeartRateRefreshFrequency">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.HeartRate1Second</listEntry>
+            <listEntry value="5">@Strings.HeartRate5Seconds</listEntry>
+            <listEntry value="15">@Strings.HeartRate15Seconds</listEntry>
+            <listEntry value="30">@Strings.HeartRate30Seconds</listEntry>
+            <listEntry value="60">@Strings.HeartRate60Seconds</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.isSecondsMarkEnabled" title="@Strings.Seconds">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.iconType0" title="@Strings.IconType0">
+        <settingConfig type="list">
+            <listEntry value="-1">@Strings.Off</listEntry>
+            <listEntry value="0">@Strings.Notifications</listEntry>
+            <listEntry value="1">@Strings.Bluetooth</listEntry>
+            <listEntry value="2">@Strings.Wifi</listEntry>
+            <listEntry value="3">@Strings.Phone</listEntry>
+            <listEntry value="4">@Strings.DoNotDisturb</listEntry>
+        </settingConfig>
+    </setting>
+        <setting propertyKey="@Properties.iconType1" title="@Strings.IconType1">
+        <settingConfig type="list">
+            <listEntry value="-1">@Strings.Off</listEntry>
+            <listEntry value="0">@Strings.Notifications</listEntry>
+            <listEntry value="1">@Strings.Bluetooth</listEntry>
+            <listEntry value="2">@Strings.Wifi</listEntry>
+            <listEntry value="3">@Strings.Phone</listEntry>
+            <listEntry value="4">@Strings.DoNotDisturb</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.dataType0" title="@Strings.DataType0">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Steps</listEntry>
+            <listEntry value="1">@Strings.TotalCalories</listEntry>
+            <listEntry value="2">@Strings.ActiveCalories</listEntry>
+            <listEntry value="3">@Strings.RestingCalories</listEntry>
+            <listEntry value="4">@Strings.Distance</listEntry>            
+            <listEntry value="5">@Strings.ActiveMinutesDay</listEntry>
+            <listEntry value="6">@Strings.ActiveMinutesWeek</listEntry>
+            <listEntry value="7">@Strings.FloorsClimbed</listEntry>
+            <listEntry value="8">@Strings.FloorsDescended</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.dataType1" title="@Strings.DataType1">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Steps</listEntry>
+            <listEntry value="1">@Strings.TotalCalories</listEntry>
+            <listEntry value="2">@Strings.ActiveCalories</listEntry>
+            <listEntry value="3">@Strings.RestingCalories</listEntry>
+            <listEntry value="4">@Strings.Distance</listEntry>            
+            <listEntry value="5">@Strings.ActiveMinutesDay</listEntry>
+            <listEntry value="6">@Strings.ActiveMinutesWeek</listEntry>
+            <listEntry value="7">@Strings.FloorsClimbed</listEntry>
+            <listEntry value="8">@Strings.FloorsDescended</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.layoutIndex" title="@Strings.BatteryType">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.BatteryIcon</listEntry>
+            <listEntry value="1">@Strings.BatteryArc</listEntry>
+        </settingConfig>
+    </setting>
+</settings>

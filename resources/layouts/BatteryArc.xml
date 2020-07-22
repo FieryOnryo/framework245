@@ -1,0 +1,42 @@
+<!-- Layout using the battery arc component -->
+<layout id="BatteryArcLayout">
+    <drawable id="watchMarks" class="WatchMarks"/>
+    <drawable id="batteryArc" class="BatteryArc">
+        <param name="xPercent">50</param>
+        <param name="yPercent">7</param>
+    </drawable>
+    <drawable id="hourAndMinute" class="HourAndMinute">
+        <param name="xPercent">50</param>
+        <param name="yPercent">28</param>
+    </drawable>
+    <drawable id="dayAndDate" class="DayAndDate">
+        <param name="xPercent">50</param>
+        <param name="yPercent">20</param>
+    </drawable>
+    <drawable id="dataField0" class="DataField">
+        <param name="index">0</param>
+        <param name="maxLength">7</param>
+        <param name="xPercent">50</param>
+        <param name="yPercent">65</param>
+    </drawable>
+    <drawable id="dataField1" class="DataField">
+        <param name="index">1</param>
+        <param name="maxLength">5</param>
+        <param name="xPercent">50</param>
+        <param name="yPercent">75</param>
+    </drawable>
+    <drawable id="heartRate" class="HeartRate">
+        <param name="xPercent">33</param>
+        <param name="yPercent">60</param>
+    </drawable>
+    <drawable id="icon0" class="ToggleIcon">
+        <param name="index">0</param>
+        <param name="xPercent">33</param>
+        <param name="yPercent">12</param>
+    </drawable>    
+    <drawable id="icon1" class="ToggleIcon">
+        <param name="index">1</param>
+        <param name="xPercent">67</param>
+        <param name="yPercent">12</param>
+    </drawable>    
+</layout>

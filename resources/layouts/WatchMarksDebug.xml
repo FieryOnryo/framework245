@@ -1,0 +1,4 @@
+<!-- Layout for only displaying the watchmarks for capturing a bitmap -->
+<layout id="WatchMarksDebugLayout">
+    <drawable id="watchMarksDebug" class="WatchMarksDebug"/>
+</layout>

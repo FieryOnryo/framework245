@@ -1,0 +1,14 @@
+<!-- Watchface bitmaps -->
+<drawables>
+    <bitmap id="LauncherIcon" filename="LauncherIcon.png" />
+    <bitmap id="DarkBackground" filename="DarkBackground.png">
+        <!-- By having the compiler figure out the minimum color palette,
+             we drop our bitmap size in memory by 42kb! -->
+        <palette/>
+    </bitmap>
+    <bitmap id="LightBackground" filename="LightBackground.png">
+        <!-- By having the compiler figure out the minimum color palette,
+             we drop our bitmap size in memory by 42kb! -->
+        <palette/>
+    </bitmap>
+</drawables>

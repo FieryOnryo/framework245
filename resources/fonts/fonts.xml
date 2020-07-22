@@ -1,0 +1,6 @@
+<!-- Watchface fonts (used for icons) -->
+<fonts>
+    <font id="ICONS" filename="icons.fnt" antialias="true" />
+    <font id="HEART" filename="heart.fnt" antialias="true" />
+    <font id="BATTERY" filename="battery.fnt" antialias="true" />
+</fonts>
